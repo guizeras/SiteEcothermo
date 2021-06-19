@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="author" content="Guilherme Carvalho / Meinove">
+    <meta name="description" content="Cartão de visitas virtual ecothermo soluções solares">
+    <meta name="keywords" content="ecothermo solar contatos redes sociais" >
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/bibliotecas/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vcard.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Ecothermo Contato</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-xl-9 mx-auto">
+                <div class="card card-signin flex-row my-1">
+                    <div class="card-img-left d-none d-md-flex">
+                        <div id="qr">
+                            <img class="img-thumbnail m-2 shadow float-end" src="assets/images/qrEcoThermo.png" alt=""
+                                srcset=""> <br>
+
+                        </div>
+                        <!-- Background image CSS! -->
+                    </div>
+                    <div class="card-body">
+                        <div class="col d-lg-none">
+                            <img src="assets/images/logo-inline.png" alt="logo ecothermo" width="200px"> <br>
+                            <a href="http://ecothermo.com.br" target="_blank" rel="link meinove">
+                                <h6 id="link">Veja nossos produtos</h6>
+                            </a>
+                            <hr>
+                        </div>
+                        <h4 class="text-center mb-4">Canais de comunicação</h4>
+                        <div class="col text-center">
+
+
+                            <a class="btn btn-social-icon btn-outline-primary m-2 " id="socials"
+                                href="http://www.facebook.com/ecothermosolares"><i
+                                    class="fab fa-facebook-f"></i></a>
+
+                            <a class="btn btn-social-icon btn-outline-info m-2" id="socials"
+                                href="http://www.linkedin.com/in/meinove"><i class="fab fa-linkedin-in"></i></a>
+
+                            <a class="btn btn-social-icon m-1 btn-outline-danger m-2" id="socials"
+                                href="mailto:ecothermoaquecedores@hotmail.com"><i class="fa fa-envelope"></i></a>
+
+                            <a class="btn btn-social-icon m-1 btn-outline-warning m-2 d-none d-md-inline-block"
+                                id="socials" href="https://ecothermo.com.br">Visitar Site</a>
+                        </div>
+                        <hr>
+                  
+                        <form class="form text-center">
+                            <h5 class="text-black-50">Energia Solar </h5>
+                            <a class="btn btn-social-icon btn-outline-secondary m-2" onclick="qr()" id="socials"
+                            href="tel:+5535999963449"><i class="fa fa-phone"></i></a>
+
+                                <a class="btn btn-social-icon btn-outline-success m-2" id="socials"
+                                href="https://api.whatsapp.com/send?phone=5535999963449&text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20energia%20solar.">
+                                <i class="fab fa-whatsapp"></i></a>
+
+                            <br>
+                            <hr>
+
+                            <h5 class="text-black-50">Aquecedor e Filtro de Água </h5>
+                            <a class="btn btn-outline-secondary m-2" onclick="qr()" href="tel:+5535991083684"><i
+                                    class="fa fa-phone"></i></a>
+
+                                    <a class="btn btn-social-icon btn-outline-success m-2" id="socials"
+                                    href="https://api.whatsapp.com/send?phone=5535991083684&text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20Ecothermo.">
+                                    <i class="fab fa-whatsapp"></i></a>
+
+                            <hr>
+                            <h5 class="text-black-50">Revendedores</h5>
+                            <a class="btn btn-outline-secondary m-2" onclick="qr()" href="tel:+5535991083684"><i
+                                    class="fa fa-phone"></i></a>
+
+                                    <a class="btn btn-social-icon btn-outline-success m-2" id="socials"
+                                    href="https://api.whatsapp.com/send?phone=5535991083684&text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20representação%20Ecothermo.">
+                                    <i class="fab fa-whatsapp"></i></a>
+
+                            <hr class="d-none d-md-block">
+
+                            <a class="btn btn-transparent text-primary btn-sm d-none d-md-block" id="link3"
+                                onclick="qr()">Acesse do seu Smartphone,
+                                clique Aqui</a>
+                        </form>
+                        <div class="row text-end ">
+                            <a class="text-black-50 small" href="https://www.meinove.com">
+                                by meinove</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    setTimeout(function () {
+        document.getElementById('link', 'link2').innerHTML = 'Acesse o site aqui';
+
+    }, 5000);
+
+    var q = document.getElementById('qr');
+    function qr() {
+        q.style.opacity = 1;
+        document.getElementById('link3').innerHTML = 'Abra a câmera do seu celular e aponte para o QR Code acima';
+
+    };
+</script>
+<!--Bibliotecas-->
+<script type="text/javascript" src="assets/bibliotecas/jquery.min.js"></script>
+<script type="text/javascript" src="assets/bibliotecas/bootstrap.bundle.min.js"></script>
+
+</html>
